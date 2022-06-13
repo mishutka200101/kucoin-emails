@@ -10,7 +10,6 @@ def main():
     for email in emails:
         res = r.post(url=url, json={"email": email})
         print(f"successful registered email {email}")
-        print(res, res.text)
         time.sleep(1)
 
 
