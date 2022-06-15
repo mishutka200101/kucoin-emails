@@ -3,10 +3,13 @@ Utility:
 
 Для работы скрипта необходим Python, скачиваем с оф. сайта - https://www.python.org/downloads/
 
-Скачиваем репозиторий командой
+Скачиваем репозиторий командой:
   git clone https://github.com/mishutka200101/leap-wallet-autoreger
+  
+Скачиваем необходимые библиотеки:
+  pip install -r requirements.txt
 
 Добавляем свои почты в файл emails.txt (каждая почта на новой строчке)
 
-Запускаем скрипт 
+Запускаем скрипт:
   python main.py
